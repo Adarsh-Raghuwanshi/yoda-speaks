@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Merienda:wght@500&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merienda', cursive;
+    height: 100vh;
+    width: 100vw;
+}
+
+.yellowClr{
+    color: #FCE072;
+}
+
+.redClr{
+    color: rgb(190, 38, 38);
+}
+
+#header{
+    background-color: #2B2A29;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+#mainContainer{
+    display: flex;
+    height: 78.4%;
+}
+
+#leftContainer{
+    margin-left: 17%;
+    width: 42%;
+}
+
+img{
+    position: relative;
+    width: 29.2%;
+    height: 90%;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.display h3{
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-bottom: 1%;
+    margin-bottom: 2%;
+}
+
+textarea{
+    margin-top: 8%;
+    outline: none;
+    resize: none;
+    font-family: 'Merienda', cursive;
+    font-size: 0.93rem;
+}
+
+button{
+    margin: 5% 0% 5% 35%;
+    background-color: #2B2A29;
+    color: #FCE072;
+    font-family: 'Merienda', cursive;
+    padding: 2%;
+    border-radius: 50px;
+    animation: 1s ease-out 0s 1 design;
+}
+
+@keyframes design {
+    0% {
+      transform: scale(0);
+      opacity: 0.2;
+    }
+    20%{
+        opacity: 0.2;
+    }
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.display{
+    background-color: white;
+    height: 31%;
+    width: 88%;
+    padding: 2%;
+    overflow: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#footer{
+    height: 5rem;
+    width: 100vw;
+    background-color: #2B2A29;
+    display: inline-block;
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+}
+
+#footer h3{
+    border-bottom: 2px solid #FCE072;
+    width: 5%;
+    margin-left: 48%;
+    margin-top: 0.5%;
+}
+
+p{
+    color: #FCE072;
+    margin-top: 1%;
+    margin-left: 25%;
+    max-width: 50rem;
+}
+
+
+
